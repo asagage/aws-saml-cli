@@ -1,6 +1,8 @@
 # aws-saml
-This tool will authenticate into AWS using ADFS SAML. You 
-should receive an authentication request on your phone, then after accepting 
+This tool will authenticate into AWS using ADFS SAML. It is based on the blogpost at 
+https://aws.amazon.com/blogs/security/how-to-implement-a-general-solution-for-federated-apicli-access-using-saml-2-0/
+but was modified to support Azure MFA.  You should receive an authentication 
+request on your phone, then after accepting 
 will presented with a list of roles that you are authorized to assume. Choose 
 the desired role.  You will then receive a set of temporary access keys and 
 token for this role.  The credentials will be stored in `~/.aws/credentials`
