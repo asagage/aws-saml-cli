@@ -1,0 +1,6 @@
+requests
+boto
+bs4
+lxml
+# for testing
+flake8
